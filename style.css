@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #4daf54, #3d8880);
+}
+.card {
+  width: 320px;
+  height: 400px;
+  background: #272d40;
+  position: relative;
+  left: 40%;
+  top: 80px;
+  border-radius: 15px;
+}
+.icon {
+  color: white;
+  font-size: 2em;
+}
+.bx-heart {
+  padding: 15px 210px 0px 20px;
+}
+.image img {
+  height: 180px;
+  transition: 0.5s;
+}
+.product-name h3 {
+  transition: 0.5s;
+  font-size: 1.8em;
+  font-weight: bold;
+  position: absolute;
+  left: 55px;
+  color: #4daf54;
+}
+.price h3 {
+  font-size: 1.8em;
+  font-weight: bold;
+  position: absolute;
+  top: 270px;
+  left: 135px;
+  color: white;
+  transition: 0.5s;
+}
+.size {
+  margin: 40px 0px 0px 25px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.2em;
+  font-weight: lighter;
+  transition: 1s;
+}
+.size h3 {
+  padding-right: 15px;
+}
+.size span {
+  background: #dadada;
+  color: black;
+  margin: 4px;
+  padding: 5px 9px;
+  border-radius: 5px;
+}
+.color {
+  margin-left: 25px;
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: white;
+  display: flex;
+  font-weight: lighter;
+  transition: 1s;
+}
+.color div {
+  margin-left: 8px;
+}
+.color h3 {
+  padding-right: 15px;
+}
+.green {
+  background-color: #4daf54;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+.red {
+  background-color: red;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+.black {
+  background-color: black;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+.btn {
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 100%;
+  transition:1s;
+}
+.btn button {
+  border: none;
+  outline: none;
+  background-color: #4daf54;
+
+  color: white;
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+}
+.add-btn {
+  margin-left: 5px;
+}
+.card:hover .image img {
+  transform: translateY(-90px) rotate(-20deg);
+}
+.card:hover .product-name h3 {
+  transform: translateY(-70px) translateX(-35px);
+}
+.card:hover .price h3 {
+  transform: translateY(-70px) translateX(-110px);
+}
+.size {
+  margin-top: 180px;
+  visibility: hidden;
+}
+.color {
+ 
+  visibility: hidden;
+
+}
+.btn {
+
+ visibility: hidden;
+}
+
+.card:hover .size {
+  visibility: visible;
+  transform: translateY(-160px);
+}
+.card:hover .color {
+  visibility: visible;
+  transform: translateY(-155px);
+
+}
+
+
+.card:hover .btn {
+    visibility: visible;
+    transform: translateY(-145px);
+  }
