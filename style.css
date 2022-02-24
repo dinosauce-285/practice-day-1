@@ -53,6 +53,7 @@ body {
   font-size: 1.2em;
   font-weight: lighter;
   transition: 1s;
+  opacity: 0;
 }
 .size h3 {
   padding-right: 15px;
@@ -72,6 +73,7 @@ body {
   display: flex;
   font-weight: lighter;
   transition: 1s;
+  opacity: 0;
 }
 .color div {
   margin-left: 8px;
@@ -102,6 +104,7 @@ body {
   margin-top: 15px;
   width: 100%;
   transition:1s;
+  opacity: 0;
 }
 .btn button {
   border: none;
@@ -119,10 +122,10 @@ body {
   transform: translateY(-90px) rotate(-20deg);
 }
 .card:hover .product-name h3 {
-  transform: translateY(-70px) translateX(-35px);
+  transform: translateY(-70px) ;
 }
 .card:hover .price h3 {
-  transform: translateY(-70px) translateX(-110px);
+  transform: translateY(-70px) ;
 }
 .size {
   margin-top: 180px;
@@ -141,15 +144,17 @@ body {
 .card:hover .size {
   visibility: visible;
   transform: translateY(-160px);
+  opacity: 1;
 }
 .card:hover .color {
   visibility: visible;
   transform: translateY(-155px);
-
+opacity: 1;
 }
 
 
 .card:hover .btn {
     visibility: visible;
     transform: translateY(-145px);
+    opacity: 1;
   }
